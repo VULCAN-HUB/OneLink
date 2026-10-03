@@ -1,0 +1,28 @@
+@font-face{font-family:Pretendard;src:url('../assets/fonts/Pretendard-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Pretendard;src:url('../assets/fonts/Pretendard-Medium.woff2') format('woff2');font-weight:500 600;font-style:normal;font-display:swap}
+@font-face{font-family:Pretendard;src:url('../assets/fonts/Pretendard-Bold.woff2') format('woff2');font-weight:650 900;font-style:normal;font-display:swap}
+@font-face{font-family:Rajdhani;src:url('../assets/fonts/rajdhani-latin-700-normal.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+:root{font-family:Pretendard,'Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+.brandbar{position:fixed;top:0;left:0;right:0;height:44px;display:flex;align-items:center;gap:9px;padding:0 22px;background:var(--white);border-bottom:1px solid var(--border);z-index:20}
+.brandbar-icon{width:36px;height:36px;object-fit:contain}
+.wordmark{font-family:Rajdhani,sans-serif;font-size:29px;font-weight:700;line-height:1;white-space:nowrap;color:var(--text)}
+.wordmark span{color:#D35400}
+.brand-tagline{color:var(--muted);font-size:11px;margin-left:12px}
+.brand-credit{margin-left:auto;font-size:11px;letter-spacing:.6px;color:var(--muted)}
+.brand-credit span{margin:0 7px;color:#D35400}
+.about-button{width:24px;height:24px;padding:0;margin-left:9px;border:1px solid var(--border);border-radius:50%;background:transparent;color:var(--muted);font-size:13px;line-height:22px}
+.about-button:hover{color:#D35400;border-color:#D35400;background:#d354000a}
+.sidebar{top:44px;padding-top:26px}.workspace-brand{padding:0 13px;font-size:16px;font-weight:700;letter-spacing:-.4px}.workspace-brand small{display:block;margin-top:8px;font-size:11px;font-weight:400;color:var(--muted)}
+.workspace-label{margin-top:30px}main{margin-top:44px;min-height:calc(100vh - 44px)}
+.eyebrow{font-family:Rajdhani,sans-serif;font-size:13px;letter-spacing:1.5px}.primary{background:#bd4b00}.primary:hover{background:#D35400}
+.about-dialog{width:390px;padding:0;overflow:hidden;border-radius:15px}
+.about-banner{height:90px;background:linear-gradient(115deg,#C0390B,#D35400);display:flex;align-items:center;padding:14px 22px;gap:11px}
+.about-banner img{width:60px;height:60px}.about-banner h2{font-family:Rajdhani,sans-serif;font-size:29px;font-weight:700;line-height:1;margin:0 0 6px;color:white;letter-spacing:.3px}
+.about-banner p{font-size:11px;color:#ffffffba;margin:0}
+.about-details{padding:18px 25px 16px}.about-details dl{display:grid;grid-template-columns:70px 1fr;row-gap:11px;align-items:center;margin:0 0 18px}
+.about-details dt{font-size:11px;color:var(--muted)}.about-details dd{margin:0;font-size:12px;font-weight:600;color:var(--text)}.about-details dd.brand-value{color:#D35400}
+.about-details p{font-size:11px;margin:0;line-height:1.6}.about-details .pill{margin-left:4px;vertical-align:middle;font-size:9px;font-weight:500}
+.channel-link{padding:0;border:0;background:transparent;color:#c33d2e;font-size:12px;font-weight:600;text-align:left}.channel-link:hover{text-decoration:underline}
+.about-bottom{display:flex;justify-content:space-between;align-items:center;background:var(--bg);border-top:1px solid var(--border);padding:12px 20px}.about-bottom .primary{padding:7px 24px;border-radius:5px}.about-bottom .ghost{font-size:10px;color:var(--muted);padding:6px 0}
+.license-dialog{width:640px}.license-dialog summary{cursor:pointer;padding:12px 0;font-size:12px}.license-text{font-family:Consolas,monospace;font-size:10px;white-space:pre-wrap;line-height:1.6;background:var(--bg);padding:14px;border-radius:8px;max-height:260px;overflow:auto}
+@media(prefers-color-scheme:dark){.primary{background:#D35400}.brand-value{color:#ed8d4e!important}.channel-link{color:#ff8b76}.wordmark span{color:#ed8d4e}}
