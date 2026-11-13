@@ -6,7 +6,7 @@
 
 1. Windows 두 기기에서 기존 Tailscale 연결을 켭니다.
 2. 기존 ONE LINK가 실행 중이면 트레이에서 완전히 종료합니다.
-3. [테스트 버전](https://github.com/VULCAN-HUB/OneLink/releases/tag/v0.1.3-beta.1)의 Windows 설치파일을 각 기기에서 실행합니다.
+3. [테스트 버전](https://github.com/VULCAN-HUB/OneLink/releases/tag/Beta-Ver.0.1.3)의 Windows 설치파일을 각 기기에서 실행합니다.
 4. 기기 연결을 누르고 양쪽 확인 코드가 일치하는지 확인해 승인합니다.
 5. 파일을 끌어 보내거나 내 공유 폴더에서 상대 기기의 읽기 권한을 지정합니다.
 
