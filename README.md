@@ -1,12 +1,14 @@
 # ONE LINK
 
-**테스트 중 · v0.1.3-beta.1 · 정식 출시 전**
+**테스트 중 · Beta-Ver.0.1.3 · 정식 출시 전**
 
 기존 Tailscale 네트워크에 연결된 기기 사이에서 파일·폴더를 공유하는 데스크톱 앱입니다. ONE LINK 회원가입이나 별도 운영 서버 없이 사용합니다.
 
-**[다운로드](https://github.com/VULCAN-HUB/OneLink/releases/tag/v0.1.3-beta.1)** · **[사용 안내](DEVICE-TEST.md)**
+**[다운로드](https://github.com/VULCAN-HUB/OneLink/releases/tag/Beta-Ver.0.1.3)** · **[사용 안내](DEVICE-TEST.md)**
 
 제작: **Unknown** · [홈페이지](https://vulcan-hub.github.io/) · [YouTube](https://www.youtube.com/@unknown8563)
+
+> 현재 배포본의 앱 내 업데이트 확인은 동작하지 않습니다. 새 버전은 Releases에서 직접 받으세요.
 
 ## 기능
 
@@ -54,3 +56,7 @@ npm run dist:win
 [공개 정책](PUBLICATION_POLICY.md) · [자동화 규칙](AI_AUTOMATION_RULES.md) · [게시 전 체크리스트](PUBLICATION_CHECKLIST.md)
 
 [공개 정책: VULCAN-0.3](https://github.com/VULCAN-HUB/RawBaker/blob/main/PUBLICATION_POLICY.md)
+
+---
+
+작성자 : IGNIS - Codex / Unknown · YouTube @unknown8563
